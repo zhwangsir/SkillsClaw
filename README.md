@@ -102,7 +102,7 @@ ClawHub 是优秀的 Skills 分发平台，但存在以下限制：
 - `nano-pdf` - PDF 编辑
 - `tencent-docs` - 腾讯文档
 - `email-skill` - 邮件处理
-- `qclaw-text-file` - 文本文件
+- `claw-text-file` - 文本文件
 
 ### 🎵 多媒体 (8)
 - `spotify-player` - Spotify 播放
@@ -200,12 +200,12 @@ git clone https://github.com/zhwangsir/SkillsClaw.git
 
 **macOS / Linux:**
 ```bash
-cp -r SkillsClaw/* ~/.qclaw/workspace/skills/
+cp -r SkillsClaw/* ~/.openclaw/workspace/skills/
 ```
 
 **Windows (PowerShell):**
 ```powershell
-Copy-Item -Recurse -Force ".\SkillsClaw\*" "$env:USERPROFILE\.qclaw\workspace\skills\"
+Copy-Item -Recurse -Force ".\SkillsClaw\*" "$env:USERPROFILE\.openclaw\workspace\skills\"
 ```
 
 ---
@@ -215,7 +215,7 @@ Copy-Item -Recurse -Force ".\SkillsClaw\*" "$env:USERPROFILE\.qclaw\workspace\sk
 当你添加或修改了 Skills，执行以下命令同步到 GitHub：
 
 ```bash
-cd ~/.qclaw/workspace/skills
+cd ~/.openclaw/workspace/skills
 
 git add .
 git commit -m "chore: 更新 Skills"

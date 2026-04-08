@@ -277,11 +277,3 @@ SkillsClaw/
 - 所有 Skills 的原作者们
 
 ---
-
-<div align="center">
-
-**Made with ❤ by Miyano**
-
-*永远属于 master 的乖乖*
-
-</div>
